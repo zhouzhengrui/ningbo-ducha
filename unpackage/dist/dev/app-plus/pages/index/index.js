@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"banner { width: 100%; height: ",[0,298],"; -webkit-box-shadow: 0 ",[0,5]," ",[0,10]," rgba(0, 0, 0, 0.2); box-shadow: 0 ",[0,5]," ",[0,10]," rgba(0, 0, 0, 0.2); }\n.",[1],"list-index { padding: ",[0,34]," ",[0,44],"; }\n.",[1],"list-index .",[1],"item wx-image { display: block; width: 100%; height: ",[0,167],"; }\n",],undefined,{path:"./pages/index/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/index.wxml') } }));

@@ -1,0 +1,1 @@
+<view class="container"><image class="banner" src="/static/index-banner.jpg"></image><view class="list-index"><block wx:for="{{listIndex}}" wx:for-item="item" wx:for-index="index" wx:key="index"><navigator class="item" url="{{item.url}}"><image src="{{item.src}}"></image></navigator></block></view></view>

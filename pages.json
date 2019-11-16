@@ -1,0 +1,61 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"titleNView": false
+		}
+	}, {
+		"path": "pages/project-query/project-query",
+		"style": {
+			"titleNView": false
+		}
+	}, {
+		"path": "pages/project-content/project-content",
+		"style": {
+			"titleNView": false
+		}
+	}, {
+		"path": "pages/project-examine/project-examine",
+		"style": {
+			"titleNView": false
+		}
+	}, {
+		"path": "pages/project-examine/project-examine-edit",
+		"style": {
+			"titleNView": false
+		}
+	}, {
+		"path": "pages/progress-report/progress-report",
+		"style": {
+			"titleNView": false
+		}
+	}, {
+		"path": "pages/progress-report/progress-report-edit",
+		"style": {
+			"titleNView": false
+		}
+	}, {
+		"path": "pages/site-inspection/site-inspection",
+		"style": {
+			"titleNView": false
+		}
+	}, {
+		"path": "pages/statistics/statistics",
+		"style": {
+			"titleNView": false
+		}
+	}, {
+		"path": "pages/progress-list/progress-list",
+		"style": {
+			"titleNView": false
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#F8F8F8",
+		"backgroundColorBottom": "#F8F8F8"
+	}
+}
