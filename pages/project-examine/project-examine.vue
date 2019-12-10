@@ -88,6 +88,12 @@
 				</view>
 				<!-- item over -->
 			</view>
+			<view class="list-title">
+				<text class="title">审核意见</text>
+			</view>
+			<div class="textarea-box">
+				<textarea class="textarea" placeholder="请输入审批意见" @blur="fixScroll"/>
+			</div>
 			<view class="list-space"></view>
 		</scroll-view>
 		<view class="bottom-bar">
@@ -116,6 +122,10 @@
 			bindPickerChange: function(e) {
 				this.index = e.target.value
 			},
+			//修复 IOS12，微信 6.7.4+ 键盘不回弹的问题
+			fixScroll() {
+			  window.scrollTo(0, 0);
+			}
 		}
 	}
 </script>
@@ -184,6 +194,15 @@
 		.title {
 			font-size: 32rpx;
 			color: #999;
+		}
+	}
+	
+	.textarea-box {
+		width: 100%;
+		background-color: #fff;
+		textarea {
+			font-size: 32rpx;
+			padding: 20rpx 38rpx;
 		}
 	}
 		

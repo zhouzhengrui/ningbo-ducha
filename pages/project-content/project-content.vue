@@ -95,8 +95,10 @@
 						<view class="item">
 							<view class="row">
 								<text class="text date">2019-8-31</text>
-								<text class="text">现场巡查</text>
-								<text class="text blue">(督查室)</text>
+								<view class="inner">
+									<text class="text">现场巡查现场巡查现场巡查现场巡查现场巡查现场巡查</text>
+									<text class="text blue">(督查室)</text>
+								</view>
 							</view>
 							<navigator class="list-history-button" url="">查看详情</navigator>
 						</view>
@@ -105,8 +107,10 @@
 						<view class="item">
 							<view class="row">
 								<text class="text date">2019-7-25</text>
-								<text class="text">月度进度上报</text>
-								<text class="text blue">(教育局)</text>
+								<view class="inner">
+									<text class="text">月度进度上报</text>
+									<text class="text blue">(教育局)</text>
+								</view>
 							</view>
 							<navigator class="list-history-button" url="">查看详情</navigator>
 						</view>
@@ -115,8 +119,10 @@
 						<view class="item">
 							<view class="row">
 								<text class="text date">2019-1-10</text>
-								<text class="text">开工</text>
-								<text class="text blue"></text>
+								<view class="inner">
+									<text class="text">开工</text>
+									<text class="text blue"></text>
+								</view>
 							</view>
 							<navigator class="list-history-button" url="">查看详情</navigator>
 						</view>
@@ -125,8 +131,10 @@
 						<view class="item">
 							<view class="row">
 								<text class="text date">2019-1-10</text>
-								<text class="text">初始录入</text>
-								<text class="text blue">(教育局)</text>
+								<view class="inner">
+									<text class="text">初始录入</text>
+									<text class="text blue">(教育局)</text>
+								</view>
 							</view>
 							<navigator class="list-history-button" url="">查看详情</navigator>
 						</view>
@@ -237,18 +245,22 @@
 		}
 		.row {
 			display: flex;
-			align-items: center;
+			align-items: baseline ;
+		}
+		.innner {
+			
 		}
 		.text {
 			font-size: 32rpx;
 			margin-right: 24rpx;
-			&.blue {
-				color: #0081ff;
-			}
+		}
+		.blue {
+			color: #0081ff;
 		}
 		.date {
 			font-size: 28rpx;
 			color: #999;
+			white-space: nowrap;
 		}
 		.list-history-button {
 			display: inline-block;
